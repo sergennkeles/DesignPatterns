@@ -11,7 +11,7 @@ namespace SingletonPattern
              *  Bir nesne örneğinin sadece bir kere üretilmesini ve bu nesnenin her zaman kullanılmasını öngören desen türüdür.
              *  Her zaman kullanılacak nesnelerin sürekli olarak new'lenmesi maliyetlidir. Bu durumda Singleton design pattern kullanmak daha mantıklıdır.
              *  Singleton design pattern kullanırken dikkatli olmak lazım. Eğer bir kereliğine kullanılacak olan nesnelerde kullanılırsa bu da doğru olmaz.
-             * **/
+             *  **/
             var customerManager = CustomerManager.CreateSingletonPattern();
 
             customerManager.Add();
